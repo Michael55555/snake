@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0;
+  background-color: #222;
+}
+
+button {
+  position: absolute;
+  width: 100vw;
+  height: 30vh;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  border: none;
+  z-index: 10;
+}
+
+button:nth-child(2) {
+  top: 30vh;
+  height: 40vh;
+  width: 50vw;
+  cursor: pointer;
+}
+
+button:nth-child(3) {
+  top: 30vh;
+  height: 40vh;
+  width: 50vw;
+  right: 0;
+  left: auto;
+}
+
+button:nth-child(4) {
+  height: 30vh;
+  bottom: 0;
+  top: auto;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  display: relative;
+  z-index: 1;
+}
